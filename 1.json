@@ -531,7 +531,7 @@
             "filterable": 1
         }, {
             "key": "鸭奈飞",
-            "name": "😎奈飞┃影视",
+            "name": "⚡奈飞┃APP",
             "type": 3,
             "api": "csp_AppYsV2",
             "searchable": 1,
@@ -540,7 +540,7 @@
             "ext": "https://yanetflix.me/api.php/app/"
         }, {
             "key": "酷影视",
-            "name": "😎酷影┃影视",
+            "name": "⚡酷影┃APP",
             "type": 3,
             "api": "csp_AppYsV2",
             "searchable": 1,
@@ -548,14 +548,114 @@
             "filterable": 1,
             "ext": "https://www.tvkuys.xyz/api.php/app/"
         }, {
-            "key": "鑫鑫影视",
-            "name": "😎鑫鑫 | 影视",
+            "key": "映迷",
+            "name": "⚡映迷┃APP",
+            "type": 1,
+            "api": "https://www.inmi.app/api.php/provide/vod/",
+            "searchable": 1,
+            "quickSearch": 1
+        }, {
+            "key": "雨晴",
+            "name": "⚡晴天┃APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "ext": "http://43.154.162.194/ruifenglb_api.php/v1.vod"
+        }, {
+            "key": "酷我",
+            "name": "⚡酷我┃APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "ext": "http://www.kuloo.xyz/ruifenglb_api.php/v1.vod"
+        }, {
+            "key": "小马",
+            "name": "⚡小马┃APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "ext": "https://mas.szyyds.cn/api.php/app/"
+        }, {
+            "key": "西瓜",
+            "name": "⚡西瓜┃APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "ext": "http://4k.953365.cn:8090/xgapp.php/v2/"
+        }, {
+            "key": "少泽",
+            "name": "⚡少泽┃APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "ext": "https://yk.shaozeyy.com/api.php/app/"
+        }, {
+            "key": "嘛艺",
+            "name": "⚡嘛艺┃APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "ext": "http://122.228.84.103:5822/api.php/app/"
+        }, {
+            "key": "星球",
+            "name": "⚡奈飞┃APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "ext": "https://www.netfly.tv/api.php/app/"
+        }, {
+            "key": "鸭奈",
+            "name": "⚡鸭飞┃APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "ext": "https://yanetflix.me/api.php/app/"
+        }, {
+            "key": "追兔",
+            "name": "⚡剧兔┃APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "ext": "https://www.zjtu.tv/api.php/app/"
+        }, {
+            "key": "河狸",
+            "name": "⚡河狸┃APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "ext": "https://www.heli888.cc/api.php/app/"
+        }, {
+            "key": "爱迪",
+            "name": "⚡爱迪┃APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "ext": "https://adys.tv/xgapp.php/v1/"
+        }, {
+            "key": "美剧",
+            "name": "⚡美剧┃APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "ext": "https://www.69mj.com/xgapp.php/v2/"
+        }, {
+            "key": "星球",
+            "name": "⚡大米┃APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "ext": "https://damifi.com/api.php/app/"
+        }, {
+            "key": "千神",
+            "name": "⚡千神┃APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "ext": "https://www.56aq.com/api.php/app/"
+        }, {
+            "key": "银河影视",
+            "name": "⚡银河┃APP",
             "type": 3,
             "api": "csp_AppYsV2",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "http://yingszj.xn--654a.cc/api.php/app/"
+            "ext": "http://134.175.219.46/mogai_api.php/v1.vod"
+        }, {
+            "key": "五一影视",
+            "name": "⚡五一┃APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://ys.51bro.cn/mogai_api.php/v1.vod"
         }, {
             "key": "片哈影视",
             "name": "🎃片哈┃影视",
