@@ -55,67 +55,72 @@
             "searchable": 1,
             "changeable": 1
         }, {
-            "key": "drpy_js_58动漫",
+            "key": "58动漫",
             "name": "🐭58动漫┃动漫",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/58动漫.js"
         }, {
-            "key": "drpy_js_童趣",
+            "key": "童趣",
             "name": "🐭童趣┃动漫",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/童趣.js"
         }, {
-            "key": "drpy_js_有声绘本网",
+            "key": "有声绘本网",
             "name": "🐭有声绘本网┃动漫",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/有声绘本网.js"
         }, {
-            "key": "drpy_js_兔小贝",
+            "key": "兔小贝",
             "name": "🐭兔小贝┃动漫",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/兔小贝.js"
         }, {
-            "key": "drpy_js_AnFuns",
+            "key": "AnFuns",
             "name": "🐭AnFuns┃动漫",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/AnFuns.js"
         }, {
-            "key": "drpy_js_NT动漫",
+            "key": "NT动漫",
             "name": "🐭NT动漫┃动漫",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/NT动漫.js"
         }, {
-            "key": "drpy_js_动漫岛",
+            "key": "动漫岛",
             "name": "🐭动漫岛┃动漫",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/动漫岛.js"
         }, {
-            "key": "drpy_js_去看吧",
+            "key": "去看吧",
             "name": "🐭去看吧┃动漫",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/去看吧.js"
         }, {
-            "key": "drpy_js_奇米动漫",
-            "name": "🐭奇米动漫┃动漫",
+            "key": "奇米动漫",
+            "name": "🐭奇米┃动漫",
             "type": 3,
-            "api": "./lib/nxog.js",
-            "ext": "./lib/奇米动漫.js"
+            "api": "csp_XBPQ",
+            "ext": {
+"主页url": "http://www.qimiqimi.net",
+"分类url": "https://www.qimiqimi.net/show/{cateId}/by/{by}/page/{catePg}/year/{year}.html",
+"分类": "新番$xinfan#日漫$riman#国漫$guoman#剧场$jcdm",
+"搜索url" :"https://www.qimiqimi.net/vod/search.html?wd={wd}"
+                  } 
         }, {
-            "key": "drpy_js_怡萱动漫",
+            "key": "怡萱动漫",
             "name": "🐭怡萱动漫┃动漫",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/怡萱动漫.js"
         }, {
-            "key": "drpy_js_Anime1动畫",
+            "key": "Anime1动畫",
             "name": "🐭Anime1动畫┃动漫",
             "type": 3,
             "api": "./lib/nxog.js",
@@ -266,7 +271,15 @@
                 }
             }
         }, {
-            "key": "南瓜影视",
+            "key": "星芽短剧",
+            "name": "🐞星芽┃短剧",
+            "type": 3,
+            "api": "csp_AppXY",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0
+        }, {
+            "key": "南瓜影视 1",
             "name": "💡南瓜┃影视",
             "type": 3,
             "api": "csp_WexNgys",
@@ -342,7 +355,7 @@
             "searchable": 1,
             "changeable": 1
         }, {
-            "key": "厂长资源",
+            "key": "厂长资源 ",
             "name": "💡厂长┃影视",
             "type": 3,
             "api": "csp_Czsapp",
@@ -4247,7 +4260,7 @@
         },
 
         {
-            "key": "金曼影视",
+            "key": "金曼影视 1",
             "name": "🎃金曼┃影视",
             "type": 3,
             "api": "csp_XBPQ",
@@ -4296,7 +4309,7 @@
             }
         }, {
 
-            "key": "胖虎影视",
+            "key": "胖虎影视 1",
             "name": "🎃胖虎┃影视",
             "type": 3,
             "api": "csp_XBPQ",
@@ -4327,7 +4340,7 @@
                 "搜索url": "https://www.69mj.com/index.php/vod/search.html?wd="
             }
         }, {
-            "key": "B站影视",
+            "key": "B站影视 1",
             "name": "🎃B站┃影视",
             "type": 3,
             "api": "csp_XBPQ",
@@ -4417,7 +4430,7 @@
             "api": "csp_XBPQ",
             "ext": "主页url:https://www.ajggg.com/,分类url:https://www.ajggg.com{cateId},分类:电影$/show/1.html#电视剧$/show/2.html#动漫$/show/3.html#综艺$/show/4.html"
         }, {
-            "key": "碟调影视",
+            "key": "碟调影视 1",
             "name": "🎃碟调┃影视",
             "type": 3,
             "api": "csp_XBPQ",
@@ -15220,25 +15233,25 @@
             "api": "./lib/nxog.js",
             "ext": "./lib/爱爱.js"
         }, {
-            "key": "drpy_js_量子资源",
+            "key": "量子资源 1",
             "name": "🎄量子┃影视",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/量子资源.js"
         }, {
-            "key": "drpy_js_4KHDR[磁]",
+            "key": "4KHDR[磁]",
             "name": "🎄4KHDR┃影视",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/4KHDR[磁].js"
         }, {
-            "key": "drpy_js_6V新版[磁]",
+            "key": "6V新版[磁]",
             "name": "🎄6V新版┃影视",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/6V新版[磁].js"
         }, {
-            "key": "drpy_js_磁力熊[磁]",
+            "key": "磁力熊[磁]",
             "name": "🎄磁力熊┃影视",
             "type": 3,
             "api": "./lib/nxog.js",
@@ -15250,182 +15263,182 @@
             "api": "./lib/nxog.js",
             "ext": "./lib/好趣网.js"
         }, {
-            "key": "drpy_js_360影视",
+            "key": "360影视",
             "name": "🎄360┃影视",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/360影视.js"
         }, {
-            "key": "drpy_js_奇珍异兽",
+            "key": "奇珍异兽",
             "name": "🎄爱奇艺┃影视",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/奇珍异兽.js"
         }, {
-            "key": "drpy_js_优酷",
+            "key": "优酷",
             "name": "🎄优酷┃影视",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/优酷.js"
         }, {
-            "key": "drpy_js_腾云驾雾",
+            "key": "腾云驾雾",
             "name": "🎄腾讯┃影视",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/腾云驾雾.js"
         }, {
-            "key": "drpy_js_百忙无果",
+            "key": "百忙无果",
             "name": "🎄芒果┃影视",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/百忙无果.js"
         }, {
-            "key": "drpy_js_菜狗",
+            "key": "菜狗",
             "name": "🎄搜狗┃影视",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/菜狗.js"
         }, {
-            "key": "drpy_js_玄天",
+            "key": "玄天",
             "name": "🎄玄天┃影视",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/玄天.js"
         }, {
-            "key": "drpy_js_555电影[V2]",
+            "key": "555电影[V2]",
             "name": "🎄555电影┃影视",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/555电影[V2].js"
         }, {
-            "key": "drpy_js_网飞.TV",
+            "key": "网飞.TV",
             "name": "🎄网飞.TV┃影视",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/网飞.TV.js"
         }, {
-            "key": "drpy_js_TV云播",
+            "key": "TV云播",
             "name": "🎄TV云播┃影视",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/TV云播.js"
         }, {
-            "key": "drpy_js_看看屋",
+            "key": "看看屋",
             "name": "🎄看看屋┃影视",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/看看屋.js"
         }, {
-            "key": "drpy_js_影渣渣",
+            "key": "影渣渣",
             "name": "🎄影渣渣┃影视",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/影渣渣.js"
         }, {
-            "key": "drpy_js_南瓜影视",
+            "key": "南瓜影视",
             "name": "🎄南瓜影视┃影视",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/南瓜影视.js"
         }, {
-            "key": "drpy_js_私人影院",
+            "key": "私人影院",
             "name": "🎄私人影院┃影视",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/私人影院.js"
         }, {
-            "key": "drpy_js_米爱影视",
+            "key": "米爱影视",
             "name": "🎄米爱影视┃影视",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/米爱影视.js"
         }, {
-            "key": "drpy_js_厂长资源",
+            "key": "厂长资源",
             "name": "🎄厂长资源┃影视",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/厂长资源.js"
         }, {
-            "key": "drpy_js_秋霞影院",
+            "key": "秋霞影院",
             "name": "🎄秋霞影院┃影视",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/秋霞.js"
         }, {
-            "key": "drpy_js_凌云影视",
+            "key": "凌云影视",
             "name": "🎄凌云影视┃影视",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/凌云影视.js"
         }, {
-            "key": "drpy_js_B站影视",
+            "key": "B站影视",
             "name": "🎄B站影视┃影视",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/B站影视.js"
         }, {
-            "key": "drpy_js_哔哩影视",
+            "key": "哔哩影视",
             "name": "🎄哔哩影视┃影视",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/哔哩影视.js"
         }, {
-            "key": "drpy_js_555电影",
+            "key": "555电影",
             "name": "🎄555电影┃影视",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/555电影.js"
         }, {
-            "key": "drpy_js_超前点播",
+            "key": "超前点播",
             "name": "🎄超前点播┃影视",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/超前点播.js"
         }, {
-            "key": "drpy_js_碟调影视",
+            "key": "碟调影视",
             "name": "🎄碟调影视┃影视",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/碟调影视.js"
         }, {
-            "key": "drpy_js_多瑙影视",
+            "key": "多瑙影视",
             "name": "🎄多瑙影视┃影视",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/多瑙影视.js",
             "playerType": "2"
         }, {
-            "key": "drpy_js_金曼影视",
+            "key": "金曼影视",
             "name": "🎄金曼影视┃影视",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/金曼影视.js"
         }, {
-            "key": "drpy_js_看了么",
+            "key": "看了么",
             "name": "🎄看了么┃影视",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/看了么.js"
         }, {
-            "key": "drpy_js_量子影视",
+            "key": "量子影视",
             "name": "🎄量子影视┃影视",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/量子影视.js"
         }, {
-            "key": "drpy_js_胖虎影视",
+            "key": "胖虎影视",
             "name": "🎄胖虎影视┃影视",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/胖虎影视.js"
         }, {
-            "key": "drpy_js_人人影视",
+            "key": "人人影视",
             "name": "🎄人人影视┃影视",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/人人影视.js"
         }, {
-            "key": "drpy_js_子子影视",
+            "key": "子子影视",
             "name": "🎄子子影视┃影视",
             "type": 3,
             "api": "./lib/nxog.js",
@@ -15438,28 +15451,28 @@
             "searchable": 1,
             "changeable": 1
         }, {
-            "key": "drpy_js_DJ音乐",
+            "key": "DJ音乐",
             "name": "🎧DJ音乐┃音乐",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/DJ音乐.js",
             "playerType": "2"
         }, {
-            "key": "drpy_js_清风DJ",
+            "key": "清风DJ",
             "name": "🎧清风DJ┃音乐",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/清风DJ.js",
             "playerType": "2"
         }, {
-            "key": "drpy_js_蜻蜓FM",
+            "key": "蜻蜓FM",
             "name": "🎧蜻蜓FM┃广播",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/蜻蜓FM.js",
             "playerType": "2"
         }, {
-            "key": "drpy_js_相声随身听",
+            "key": "相声随身听",
             "name": "🎧相声随身听┃相声",
             "type": 3,
             "api": "./lib/nxog.js",
@@ -15493,72 +15506,72 @@
                 "分类": "郭德纲$gdg#德云社$dys#新势力$xsxsl#青区社$qqs#马三立$msl#更多$xsmj"
             }
         }, {
-            "key": "drpy_js_喜马拉雅",
+            "key": "喜马拉雅",
             "name": "🎧喜马拉雅┃听书",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/喜马拉雅.js",
             "playerType": "2"
         }, {
-            "key": "drpy_js_六月听书",
+            "key": "六月听书",
             "name": "🎧六月听书┃听书",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/六月听书.js",
             "playerType": "2"
         }, {
-            "key": "drpy_js_博看听书",
+            "key": "博看听书",
             "name": "🎧博看听书┃听书",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/博看听书.js",
             "playerType": "2"
         }, {
-            "key": "drpy_js_有声小说",
+            "key": "有声小说",
             "name": "🎧有声小说┃听书",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/有声小说吧.js",
             "playerType": "2"
         }, {
-            "key": "drpy_js_爱上你听书网",
+            "key": "爱上你听书网",
             "name": "🎧爱上你听书网┃听书",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/爱上你听书网.js",
             "playerType": "2"
         }, {
-            "key": "drpy_js_播客",
+            "key": "播客",
             "name": "🎧播客┃聚合",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/播客.js"
         }, {
-            "key": "drpy_js_短视频",
+            "key": "短视频",
             "name": "🖥短视频┃聚合",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/短视频.js"
         }, {
-            "key": "drpy_js_酷6网",
+            "key": "酷6网",
             "name": "🖥酷6网┃聚合",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/酷6网.js"
         }, {
-            "key": "drpy_js_网易公版影像",
+            "key": "网易公版影像",
             "name": "🖥网易公版影像┃聚合",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/网易公版影像.js"
         }, {
-            "key": "drpy_js_酷狗MV",
+            "key": "酷狗MV",
             "name": "🎥酷狗┃MV",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/酷狗MV.js"
         }, {
-            "key": "drpy_js_酷奇MV",
+            "key": "酷奇MV",
             "name": "🎥酷奇┃MV",
             "type": 3,
             "api": "./lib/nxog.js",
@@ -16971,25 +16984,25 @@
                 }
             }
         }, {
-            "key": "drpy_js_哔哩直播",
+            "key": "哔哩直播",
             "name": "📺哔哩┃直播",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/哔哩直播.js"
         }, {
-            "key": "drpy_js_斗鱼直播",
+            "key": "斗鱼直播",
             "name": "📺斗鱼┃直播",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/斗鱼直播.js"
         }, {
-            "key": "drpy_js_虎牙直播",
+            "key": "虎牙直播",
             "name": "📺虎牙┃直播",
             "type": 3,
             "api": "./lib/nxog.js",
             "ext": "./lib/虎牙直播.js"
         }, {
-            "key": "drpy_js_JustLive",
+            "key": "JustLive",
             "name": "📺JustLive┃直播",
             "type": 3,
             "api": "./lib/nxog.js",
@@ -47118,14 +47131,6 @@
                     }]
                 }
             }
-        }, {
-            "key": "星芽短剧",
-            "name": "🐞星芽┃短剧",
-            "type": 3,
-            "api": "csp_AppXY",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0
         }
     ],
 
