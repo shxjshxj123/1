@@ -61,6 +61,17 @@
             "api": "./lib/nxog.js",
             "ext": "./lib/58动漫.js"
         }, {
+            "key": "蜜糖动漫",
+            "name": "🐭蜜糖┃动漫",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": {
+"主页url": "https://www.mitang.tv/",
+"分类url": "https://www.mitang.tv/mitang-f/{cateId}-{catePg}/",
+"分类": "新番$122A#番剧$T22A#剧场$l22A#美漫$G22A",
+"搜索url" :"https://www.mitang.tv/mitang-s/?wd={wd}&submit="
+                  } 
+        },{
             "key": "童趣",
             "name": "🐭童趣┃动漫",
             "type": 3,
