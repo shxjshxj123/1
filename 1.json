@@ -15,13 +15,13 @@
 
     "sites": [{
             "key": "豆瓣",
-            "name": "豆瓣评分",
+            "name": "豆瓣┃评分",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         }, {
             "key": "阿里云盘登录",
-            "name": "🐲阿里云盘 | 登录",
+            "name": "🐲阿里云盘┃登录",
             "type": 3,
             "api": "csp_AliYunPan",
             "searchable": 0,
@@ -30,7 +30,7 @@
             "ext": "http://127.0.0.1:9978/file/TVBox/tok.txt"
         }, {
             "key": "Aid",
-            "name": "🚑急救 | 教学",
+            "name": "🚑急救┃教学",
             "type": 3,
             "api": "csp_FirstAid",
             "searchable": 0,
@@ -42,11 +42,162 @@
             }
         }, {
             "key": "本地文件",
-            "name": "📖本地 | 视频",
+            "name": "📖本地┃视频",
             "type": 3,
             "api": "csp_LocalFile",
             "searchable": 1,
             "changeable": 1
+        },   {
+            "key": "py_cctv",
+            "name": "央视频道┃py",
+            "type": 3,
+            "api": "py_cctv",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "./lib/py_cctv.py"
+        },
+        {
+            "key": "py_cctvzh",
+            "name": "央视综合┃py",
+            "type": 3,
+            "api": "py_cctv",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "./lib/py_cctvzh.py"
+        },
+        {
+            "key": "py_cctvxw",
+            "name": "央视新闻┃py",
+            "type": 3,
+            "api": "py_cctv",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "./lib/py_cctvxw.py"
+        },
+        {
+            "key": "py_cctvzy",
+            "name": "央视综艺┃py",
+            "type": 3,
+            "api": "py_cctv",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "./lib/py_cctvzy.py"
+        },
+        {
+            "key": "py_cctvdy",
+            "name": "央视电影┃py",
+            "type": 3,
+            "api": "py_cctv",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "./lib/py_cctvdy.py"
+        },
+        {
+            "key": "py_cctvty",
+            "name": "央视体育┃py",
+            "type": 3,
+            "api": "py_cctv",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "./lib/py_cctvty.py"
+        },
+        {
+            "key": "py_cctvkj",
+            "name": "央视科教┃py",
+            "type": 3,
+            "api": "py_cctv",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "./lib/py_cctvkj.py"
+        },
+        {
+            "key": "py_cctvyy",
+            "name": "央视音乐┃py",
+            "type": 3,
+            "api": "py_cctv",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "./lib/py_cctvyy.py"
+        },
+        {
+            "key": "py_cctvse",
+            "name": "央视少儿┃py",
+            "type": 3,
+            "api": "py_cctv",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "./lib/py_cctvse.py"
+        },
+        {
+            "key": "py_cctvny",
+            "name": "央视农业┃py",
+            "type": 3,
+            "api": "py_cctv",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "./lib/py_cctvny.py"
+        },
+        {
+            "key": "py_cctvjs",
+            "name": "央视军事┃py",
+            "type": 3,
+            "api": "py_cctv",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "./lib/py_cctvjs.py"
+        },
+        {
+            "key": "py_cctv_少儿",
+            "name": "央视动画┃py",
+            "type": 3,
+            "api": "py_cctv_full",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "./lib/py_央视少儿.py"
+        },
+        {
+            "key": "AList",
+            "name": "AList┃py",
+            "type": 3,
+            "api": "py_AList",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./lib/py_alistcr.py"
+        },
+        {
+            "key": "央视经典",
+            "name": "央视┃经典",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+           "ext": {
+                "cookie": " buvid3=8B57D3BA-607A-1E85-018A-E8C430023CED42659infoc; b_lsid=BEB8EE7F_18742FF8C2E; bsource=search_baidu; _uuid=DE810E367-B52C-AF6E-A612-EDF4C31567F358591infoc; b_nut=100; buvid_fp=711a632b5c876fa8bbcf668c1efba551; SESSDATA=7624af93%2C1696008331%2C862c8%2A42; bili_jct=141a474ef3ce8cf2fedf384e68f6625d; DedeUserID=3493271303096985; DedeUserID__ckMd5=212a836c164605b7; sid=5h4ruv6o; buvid4=978E9208-13DA-F87A-3DC0-0B8EDF46E80434329-123040301-dWliG5BMrUb70r3g583u7w%3D%3D",
+	"classes": [
+		{"type_name":"典籍里的中国","type_id": "典籍里的中国"},
+		{"type_name":"朗读者","type_id": "朗读者"},
+		{"type_name":"我爱发明","type_id": "CCTV 我爱发明"},
+		{"type_name":"《读书的力量》","type_id": "《读书的力量》"},
+		{"type_name":"国宝发现","type_id": "国宝发现"},
+		{"type_name":"国宝档案","type_id": "国宝档案"},
+		{"type_name":"人体奥秘","type_id": "小灯塔人体奥秘"},
+		{"type_name":"给男孩的性教育课","type_id": "小灯塔给男孩的性教育课"}
+	]
+            }
         }, {
             "key": "动漫巴士",
             "name": "🐭巴士┃动漫",
@@ -11028,7 +11179,7 @@
 
                 "站名": "新视觉影视",
 
-                "主页url": "https://www.6080yy1.com/",
+                "主页url": "https://www.6080yy3.com/",
 
                 "简介": "【冉神影视】提醒您请勿相信影片中的广告，以免上当受骗！ 影片简介: +剧情：&&<a",
 
@@ -11074,7 +11225,7 @@
 
                 "播放列表": "<a&&</a>",
 
-                "分类url": "https://www.6080yy1.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html;;ak",
+                "分类url": "https://www.6080yy3.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html;;ak",
 
                 "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
 
@@ -17625,6 +17776,11 @@
             "filterable": 0,
             "ext": "http://127.0.0.1:9978/file/TVBox/tok.txt"
         }, {
+            "key": "文才资源",
+            "name": "🎀文才┃采集",
+            "type": 1,
+            "api": "https://api.zeqaht.com/api.php/provide/vod/"
+        },{
             "key": "极客资源",
             "name": "🎀极客┃采集",
             "type": 1,
