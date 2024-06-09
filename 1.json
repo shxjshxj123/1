@@ -66,12 +66,12 @@
             "type": 3,
             "api": "csp_XBPQ",
             "ext": {
-"主页url": "https://www.mitang.tv/",
-"分类url": "https://www.mitang.tv/mitang-f/{cateId}-{catePg}/",
-"分类": "新番$122A#番剧$T22A#剧场$l22A#美漫$G22A",
-"搜索url" :"https://www.mitang.tv/mitang-s/?wd={wd}&submit="
-                  } 
-        },{
+                "主页url": "https://www.mitang.tv/",
+                "分类url": "https://www.mitang.tv/mitang-f/{cateId}-{catePg}/",
+                "分类": "新番$122A#番剧$T22A#剧场$l22A#美漫$G22A",
+                "搜索url": "https://www.mitang.tv/mitang-s/?wd={wd}&submit="
+            }
+        }, {
             "key": "童趣",
             "name": "🐭童趣┃动漫",
             "type": 3,
@@ -119,11 +119,11 @@
             "type": 3,
             "api": "csp_XBPQ",
             "ext": {
-"主页url": "http://www.qimiqimi.net",
-"分类url": "https://www.qimiqimi.net/show/{cateId}/by/{by}/page/{catePg}/year/{year}.html",
-"分类": "新番$xinfan#日漫$riman#国漫$guoman#剧场$jcdm",
-"搜索url" :"https://www.qimiqimi.net/vod/search.html?wd={wd}"
-                  } 
+                "主页url": "http://www.qimiqimi.net",
+                "分类url": "https://www.qimiqimi.net/show/{cateId}/by/{by}/page/{catePg}/year/{year}.html",
+                "分类": "新番$xinfan#日漫$riman#国漫$guoman#剧场$jcdm",
+                "搜索url": "https://www.qimiqimi.net/vod/search.html?wd={wd}"
+            }
         }, {
             "key": "怡萱动漫",
             "name": "🐭怡萱动漫┃动漫",
@@ -554,6 +554,114 @@
             "quickSearch": 1,
             "filterable": 1
         }, {
+            "key": "龙门",
+            "name": "⚡龙门┃APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "ext": "http://movie.iqinu.com/api.php/v1.vod"
+        }, {
+            "key": "奈飞",
+            "name": "⚡鸭飞┃APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "ext": "https://yanetflix.me/api.php/app/"
+        }, {
+            "key": "剧兔",
+            "name": "⚡追剧兔子┃APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "ext": "https://www.zjtu.one/api.php/app/"
+        }, {
+            "key": "河狸",
+            "name": "⚡河狸┃APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "ext": "https://www.heli888.cc/api.php/app/"
+        }, {
+            "key": "皮虾",
+            "name": "⚡皮皮虾仁┃APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "ext": "http://aikun.tv/api.php/app/"
+        }, {
+            "key": "神马",
+            "name": "⚡神马┃APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "ext": "https://www.shenmaysk.com/api.php/app/"
+        }, {
+            "key": "小马",
+            "name": "⚡小马┃APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "ext": "https://mas.szyyds.cn/api.php/app/"
+        }, {
+            "key": "影狗",
+            "name": "⚡影狗剧院┃APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "ext": "http://app.88dyg.com/icciu_api.php/v1.vod"
+        }, {
+            "key": "老蟹",
+            "name": "⚡老蟹┃APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "ext": "http://www.ajj001.top/api.php/app/"
+        }, {
+            "key": "柠檬",
+            "name": "⚡柠檬┃APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "ext": "http://mf.songshu.cyou/api.php/app/"
+        }, {
+            "key": "星易",
+            "name": "⚡星影剧场┃APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "ext": "https://www.xingyiying.com/api.php/v1.vod"
+        }, {
+            "key": "迪影",
+            "name": "⚡爱迪┃APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "ext": "https://adys.tv/xgapp.php/v1/"
+        }, {
+            "key": "视站",
+            "name": "⚡影库剧场┃APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "ext": "https://xn--p3t583cbin.top/api.php/app/"
+        }, {
+            "key": "影馆",
+            "name": "⚡影馆剧场┃APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "ext": "https://4kdyg.top/api.php/v1.vod"
+        }, {
+            "key": "银河",
+            "name": "⚡银河┃APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "ext": "http://134.175.219.46/mogai_api.php/v1.vod"
+        }, {
+            "key": "美剧",
+            "name": "⚡六九美剧┃APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "ext": "https://www.69mj.com/xgapp.php/v2/"
+        }, {
+            "key": "大米",
+            "name": "⚡大米星球┃APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "ext": "https://damifi.com/api.php/app/"
+        }, {
+            "key": "思古",
+            "name": "⚡思古┃APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "ext": "https://siguyy.cn/api.php/app/"
+        }, {
             "key": "鸭奈飞",
             "name": "⚡奈飞┃APP",
             "type": 3,
@@ -680,6 +788,28 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://ys.51bro.cn/mogai_api.php/v1.vod"
+        }, {
+            "key": "人人影视 1",
+            "name": "🎃人人┃影视(VPN)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": {
+                "主页url": "http://www.renren.pro/",
+                "分类url": "http://www.renren.pro/list/{cateId}?page={catePg}",
+                "分类": "首页$all",
+                "搜索url": "http://www.renren.pro/search?wd={wd}"
+            }
+        }, {
+            "key": "2077影视",
+            "name": "🎃2077┃影视(VPN)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": {
+                "主页url": "https://www.m2077.com/",
+                "分类url": "https://www.m2077.com/vod-show/{cateId}-{area}-{by}------{catePg}---{year}/",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#纪录片$5#短剧$41#伦理片$20",
+                "搜索url": "https://www.m2077.com/vod-search/-------------/?wd={wd}"
+            }
         }, {
             "key": "片哈影视",
             "name": "🎃片哈┃影视",
@@ -17494,6 +17624,107 @@
             "quickSearch": 1,
             "filterable": 0,
             "ext": "http://127.0.0.1:9978/file/TVBox/tok.txt"
+        }, {
+            "key": "极客资源",
+            "name": "🎀极客┃采集",
+            "type": 1,
+            "api": "https://www.jkdy.cc/api.php/provide/vod/"
+        }, {
+            "key": "映迷资源",
+            "name": "🎀映迷┃采集",
+            "type": 1,
+            "api": "https://www.inmi.app/api.php/provide/vod/"
+        }, {
+            "key": "秒播资源",
+            "name": "🎀秒播┃采集",
+            "type": 1,
+            "api": "https://www.nvxvn.com/api.php/provide/vod/"
+        }, {
+            "key": "追风资源",
+            "name": "🎀追风┃采集",
+            "type": 1,
+            "api": "http://www.zfsp.cc/api.php/provide/vod/"
+        }, {
+            "key": "小宝资源",
+            "name": "🎀小宝┃采集",
+            "type": 1,
+            "api": "http://www.xiaobao168.com/api.php/provide/vod/"
+        }, {
+            "key": "金蝉资源",
+            "name": "🎀金蝉┃采集",
+            "type": 1,
+            "api": "https://www.jcys.bf/api.php/provide/vod/"
+        }, {
+            "key": "剧狗资源",
+            "name": "🎀剧狗┃采集",
+            "type": 1,
+            "api": "https://www.youmuz.cn/api.php/provide/vod/"
+        }, {
+            "key": "芘芣资源",
+            "name": "🎀芘芣┃采集",
+            "type": 1,
+            "api": "https://www.bilfun.cc/api.php/provide/vod/"
+        }, {
+            "key": "五一资源",
+            "name": "🎀五壹┃采集",
+            "type": 1,
+            "api": "http://www.51zhuiju.cc/api.php/provide/vod/"
+        }, {
+            "key": "六六资源",
+            "name": "🎀六六┃采集",
+            "type": 1,
+            "api": "https://www.666bo.top/api.php/provide/vod/"
+        }, {
+            "key": "一舟影院",
+            "name": "🎀一舟┃采集",
+            "type": 1,
+            "api": "http://www.mandao.site/api.php/provide/vod/"
+        }, {
+            "key": "天堂影院",
+            "name": "🎀天堂┃采集",
+            "type": 1,
+            "api": "http://www.qoordgc.com/api.php/provide/vod/"
+        }, {
+            "key": "嗨米资源",
+            "name": "🎀嗨米┃采集",
+            "type": 1,
+            "api": "https://www.himi.cc/api.php/provide/vod/"
+        }, {
+            "key": "无忧资源",
+            "name": "🎀无忧┃采集",
+            "type": 1,
+            "api": "https://www.wyvod.com/api.php/provide/vod/"
+        }, {
+            "key": "柠檬资源",
+            "name": "🎀柠檬┃采集",
+            "type": 1,
+            "api": "https://www.nmnm.cc/api.php/provide/vod/"
+        }, {
+            "key": "三八资源",
+            "name": "🎀三八┃采集",
+            "type": 1,
+            "api": "https://vod38.com/api.php/provide/vod/"
+        }, {
+            "key": "淘片采集",
+            "name": "🎀淘片┃采集",
+            "type": 1,
+            "api": "https://taopianapi.com/cjapi/mc/vod/json.html"
+        }, {
+            "key": "飞速资源",
+            "name": "🎀飞速┃采集",
+            "type": 1,
+            "api": "https://feisuzy.com/api.php/provide/vod/"
+        }, {
+            "key": "百度资源",
+            "name": "🎀百度┃采集",
+            "type": 1,
+            "api": "https://bdzy.tv/api.php/provide/vod/"
+        }, {
+            "key": "牛牛资源",
+            "name": "🎀牛牛┃采集",
+            "type": 1,
+            "api": "https://niuniuzy6.com/api.php/provide/vod/",
+            "playurl": "https://jiexi.niuniuzy.org/m3u8/?url="
         }, {
             "key": "红牛资源",
             "name": "🎀红牛┃采集",
